@@ -48,6 +48,7 @@ const Home4 = () => {
             arr.map((c)=>{
                 if(x===c.id){
                     console.log(c);
+                    newArr = [...newArr,c]
                 }
             })
         })
@@ -74,7 +75,6 @@ const Home4 = () => {
         })
         console.log("newArr",newArr)
         setLeftArr(newArr);
-
     }
     
   return (
